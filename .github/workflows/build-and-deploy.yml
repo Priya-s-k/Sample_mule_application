@@ -74,6 +74,5 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PASSWORD: ${{ secrets.PASSWORD }}
       run: |
-        echo ${{ secrets.USERNAME }}
         artifactName=$(ls *.jar | head -1)
         mvn deploy -DmuleDeploy -Dmule.artifact=$artifactName -Danypoint.username="$USERNAME" -Danypoint.password="$PASSWORD" -DskipTests
