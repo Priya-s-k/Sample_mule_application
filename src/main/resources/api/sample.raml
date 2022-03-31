@@ -1,0 +1,16 @@
+#%RAML 1.0
+title: Sample
+
+/demo:
+  get:
+    queryParameters:
+      name:
+        type: string
+    body:
+      application/json:
+        properties:
+          city:
+            type: array
+    
+            
+           
