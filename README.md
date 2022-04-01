@@ -1,1 +1,1 @@
-# Sample_mule_application
+#  deploying Sample_mule_application to cloudhub using Github Action
